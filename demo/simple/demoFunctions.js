@@ -22,7 +22,8 @@
  */
 
 var client;
-window.init = function(token) {
+window.init = function() {
+  var token = "b08d44f3e5a64aa982dfa91fbe8ef680";
   client = new ApiAi.ApiAiClient({accessToken: token});
 };
 
